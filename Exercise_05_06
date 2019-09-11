@@ -1,0 +1,13 @@
+public class Exercise_05_06 {
+
+	public static void main(String[] args) {
+		System.out.println("PING\t\tSQUARE METER\t|\tSQUARE METER\t\tPING");
+		System.out.println("_______________________________________________________________________");
+		for (int i = 10, j = 30; i < 80 && j <= 100; i += 2, j += 5) {
+
+			System.out.printf("%3d%22.3f       | %12d%24.3f\n", i, (i * (3.305)), j, ((j / 3.305)));
+
+		}
+	}
+
+}

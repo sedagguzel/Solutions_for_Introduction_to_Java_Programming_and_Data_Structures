@@ -1,0 +1,21 @@
+public class Exercise_05_07 {
+	public static void main(String[] args) {
+		int tuition = 10000;
+		int tCost = 0;
+		int tuitionTen = 0;
+		int year = 0;
+		while (year < 15) {
+			tuition += tuition * .06;
+			if (year > 10) {
+				tCost += tuition;
+			} else if (year == 10) {
+				tuitionTen = tuition;
+			}
+			year++;
+
+		}
+		System.out.println("The tuition in ten years is " + tuitionTen
+				+ " and the total cost of four years' worth of tuition after the tenth years is " + tCost);
+
+	}
+}

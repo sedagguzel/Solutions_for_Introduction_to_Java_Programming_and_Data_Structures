@@ -1,0 +1,13 @@
+public class Exercise_05_05 {
+
+	public static void main(String[] args) {
+		System.out.println("CELSIUS\t\tFAHRENHEIT\t|\tFAHRENHEIT\t\tCELSIUS");
+		System.out.println("_______________________________________________________________________");
+		for (int i = 0, j = 20; i < 102 && j <= 275; i += 2, j += 5) {
+
+			System.out.printf("%3d%22.3f       | %12d%24.3f\n", i, ((i * (1.8)) + 32), j, ((j - 32) / 1.8));
+
+		}
+	}
+
+}

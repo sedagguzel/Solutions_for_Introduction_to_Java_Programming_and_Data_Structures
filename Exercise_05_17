@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class Exercise_05_17 {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		System.out.println("Enter the number of lines:");
+		int line = input.nextInt();
+		for (int row = line; row >= 1; row--) {
+			for (int column = 1; column <= row; column++) {
+				System.out.print(column + " ");
+			}
+			System.out.println();
+		}
+
+	}
+
+}
